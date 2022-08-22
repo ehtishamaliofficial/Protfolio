@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header class="name-contanier">
+        <h1>
+            Proto<span>folio</span>
+        </h1>
+
+
+    </header>
+
+    <section class="nav-container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#Home">Home</a>
+                </li>
+                <li>
+                    <a href="#About">About</a>
+                </li>
+                <li>
+                    <a href="#Services">Services</a>
+                </li>
+                <li>
+                    <a href="#Education">Education</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact us</a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </section>
+    <section class="home" id="Home">
+        <img src="model.jpg" alt="">
+        <h1>I'm Ehtisham Ali & i'm a <span>Developer</span></h1>
+        <h4>~28/05/2001~</h4>
+        <p>
+
+        </p>
+    </section>
+    <section class="about" id="About">
+
+        <h1>~About me~<span><span></h1>
+        <h4></h4>
+        <p>
+            Hello,My name is Ehtisham Ali. I am a Devolper and also a Designer.If you have asany Project or if you want make a software for your bisnes conatact me.I make as soon as possibale.You really like my work,if you don&#8217;t i change this until
+            you like I give you seticfaction result
+        </p>
+        <p>I am a Devolper and also a Designer.If you have asany Project or if you want make a software for your bussniess conatact me.I make your project as soon as possible.</p>
+        <div class="about-button">
+            
+            <button>Hire Me</button>
+            <button>Download CV</button>
+        </div>
+    </section>
+    <section class="services" id="Services">
+        <h1>Services</h1>
+        <hr>
+        <span></span>
+            <div class="box-contanies">
+                <div class="box">
+                    <h2>1</h2>
+                    <h1>Web Desgining</h1>
+                    <hr>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium placeat ratione quasi expedita cum ad quae culpa! Id quia temporibus architecto iure similique, recusandae possimus, tenetur ducimus, accusantium necessitatibus
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur doloremque similique inventore distinctio laudantium ut. Provident, tempore sequi natus at dicta id assumenda ipsam voluptatem velit ab eum fugit quidem? vitae.
+                    </p>
+
+                </div>
+                <div class="box">
+                    <h2>2</h2>
+                    <h1>Java</h1>
+                    <hr>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas et ex, cumque a vitae optio accusamus velit. Illo, labore nisi, blanditiis veritatis, similique enim quo atque iste beatae delectus Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Recusandae asperiores expedita unde placeat consequuntur molestiae reprehenderit, ex doloremque. Autem quas esse aliquid voluptatum suscipit molestias soluta. In unde harum enim?</p>
+
+                </div>
+                <div class="box">
+                    <h2>3</h2>
+                    <h1>3D Painting</h1>
+                    <hr>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit necessitatibus voluptatum tenetur explicabo blanditiis atque commodi doloremque, vitae, magni quibusdam dicta dolorem omnis debitis ratione maiores quis iste eveniet repudiandae?
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos repellat nostrum illum vitae consectetur quo, ullam culpa veniam ipsum! Incidunt minima quidem iure sed repellendus eveniet, mollitia iusto saepe ab?</p>
+
+                </div>
+            </div>
+
+    </section>
+    <section class="skills section" id="Education">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+            <div>
+                <h2 class="skills__subtitle">Profesional Skills</h2>
+                <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-html5 skills__icon'></i>
+                        <span class="skills__name">HTML5</span>
+                    </div>
+                    <div class="skills__bar skills__html">
+
+                    </div>
+                    <div>
+                        <span class="skills__percentage">95%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-css3 skills__icon'></i>
+                        <span class="skills__name">CSS3</span>
+                    </div>
+                    <div class="skills__bar skills__css">
+
+                    </div>
+                    <div>
+                        <span class="skills__percentage">85%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-javascript skills__icon'></i>
+                        <span class="skills__name">JAVASCRIPT</span>
+                    </div>
+                    <div class="skills__bar skills__js">
+
+                    </div>
+                    <div>
+                        <span class="skills__percentage">65%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxs-paint skills__icon'></i>
+                        <span class="skills__name">UX/UI</span>
+                    </div>
+                    <div class="skills__bar skills__ux">
+
+                    </div>
+                    <div>
+                        <span class="skills__percentage">85%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <img src="assets/img/work3.jpg" alt="" class="skills__img">
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="Contact">
+        <h1>Contact</h1>
+        <h4>~Keep in Touch~</h4>
+
+    </section>
+
+</body>
+
+
+
+</html>
